@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+<body>
+    <input type="text" placeholder="firstname" class="fname" name="" id="">
+    <input type="text" placeholder="lastname" class="lname" name="" id="">
+    <input type="text" class="img" placeholder="img" name="" id="">
+    <input type="text" class="xomagi" placeholder="faculty" name="" id="">
+    <button class="save">submit</button>
+    <div class="main">
+    <table class="tb">
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Mark</th>
+            <th>Img</th>
+            <th>faculty</th>
+        </tr>
+        
+    </table>
+    <div class="beststud">
+    <div class="card" style="width: 18rem;">
+        <img src="" class="card-img-top img1" alt="">
+        <div class="card-body">
+          <h5 class="card-title fname1"></h5>
+          <p class="card-text lname1"></p>
+          <p class="card-text fac1"></p>
+          <a href="#" class="btn btn-primary mark1"></a>
+        </div>
+      </div>
+    </div>
+</div>
+<table class="kolbasi">
+    <tr>
+        <th>student name</th>
+        <th>course</th>
+    </tr>
+</table>
+
+    <script src="index.js"></script>
+</body>
+<style>
+    .main {
+        display: flex;
+        justify-content: space-around;
+    }
+    table  {
+        width: 60%;
+        margin: auto;
+        border-collapse: colapse;
+    }
+    td, th {
+        text-align: left;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    .im {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+
+    }
+</style>
+</html>
